@@ -152,6 +152,7 @@ onClick={async () => {
 
       const data = await response.json();
       console.log("GEMMA RESPONSE:", data);
+
       setMission(data.mission);
       setScreen("mission");
     } catch (error) {
